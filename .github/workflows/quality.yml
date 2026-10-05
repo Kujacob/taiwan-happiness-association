@@ -16,3 +16,17 @@ jobs:
           node-version: 22
       - run: npm install --no-audit --no-fund
       - run: npm run release-check
+      - name: Serve static output
+        run: |
+          python3 -m http.server 4173 --directory out >/tmp/site.log 2>&1 &
+          for i in {1..20}; do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/site.log
+          exit 1
+      - name: Lighthouse mobile audit
+        run: |
+          npx --yes lighthouse@13.0.1 http://127.0.0.1:4173/ --quiet --chrome-flags="--headless --no-sandbox" --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=qa/lighthouse-home.json
+          npx --yes lighthouse@13.0.1 http://127.0.0.1:4173/harm-reduction/ --quiet --chrome-flags="--headless --no-sandbox" --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=qa/lighthouse-harm-reduction.json
+          node scripts/lighthouse-gate.mjs
