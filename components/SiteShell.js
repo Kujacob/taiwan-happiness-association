@@ -22,7 +22,7 @@ export default function SiteShell({children, lang='zh'}) {
     <details className="mobile-menu"><summary>{en?'Menu':'選單'}</summary><nav aria-label={en?'Mobile navigation':'行動版導覽'}>{nav.map(([n,h])=><Link key={h} href={h}>{n}</Link>)}</nav></details>
    </div>
   </header>
-  <main id="main">{children}</main>
+  <main id="main" lang={en?'en':'zh-Hant'}>{children}</main>
   <footer className="footer"><div className="container">
    <div className="footer-grid">
     <div><div className="footer-brand"><Image src="/images/logo.jpg" width={128} height={128} alt=""/><div><strong>{en?organization.nameEn:organization.nameZh}</strong><p>{en?'Evidence-informed health promotion, recovery support and harm reduction.':'以實證為基礎，促進健康、支持復元、推動減害。'}</p></div></div></div>
