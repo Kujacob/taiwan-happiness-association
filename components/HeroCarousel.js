@@ -131,13 +131,15 @@ export default function HeroCarousel({lang='zh'}) {
           sizes="(max-width: 980px) 100vw, 46vw"
         />
       </div>)}
-      <div className="hero-carousel-caption">
-        <span>{current.eyebrow}</span>
-        <strong>{current.title}</strong>
-        <Link href={current.href}>{lang==='en'?'Learn more':'了解更多'} →</Link>
-      </div>
       <button className="hero-carousel-arrow prev" type="button" onClick={()=>go(index-1)} aria-label={lang==='en'?'Previous slide':'上一張'}>‹</button>
       <button className="hero-carousel-arrow next" type="button" onClick={()=>go(index+1)} aria-label={lang==='en'?'Next slide':'下一張'}>›</button>
+    </div>
+    <div className="hero-carousel-info" aria-live="polite">
+      <div className="hero-carousel-info-copy">
+        <span>{current.eyebrow}</span>
+        <strong>{current.title}</strong>
+      </div>
+      <Link href={current.href}>{lang==='en'?'Learn more':'了解更多'} →</Link>
     </div>
     <div className="hero-carousel-controls" aria-label={lang==='en'?'Choose slide':'切換照片'}>
       {slides.map((slide,i)=><button
