@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import SiteShell from '../../../components/SiteShell';
 import {programAreas} from '../../../data/content';
-export const metadata={title:'Programs'};
+export const metadata={title:'Programs',description:'Programs and services across addiction health, youth, families, new immigrant communities, harm reduction and professional exchange.',alternates:{canonical:'/en/programs',languages:{'zh-Hant':'/programs','en':'/en/programs'}}};
 const immigrantGallery=[
  ['/images/programs/new-immigrant-parent.webp','Parent education for new immigrant families'],
  ['/images/programs/new-immigrant-training.webp','2024 training for program staff'],
