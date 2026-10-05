@@ -1,0 +1,19 @@
+
+> taiwan-happiness-association-website@1.0.0-rc.1 qa
+> node scripts/qa.mjs
+
+PASS Official Chinese name
+PASS Official English name
+PASS Public email
+PASS Public phone
+PASS Bilingual routes
+PASS Health update date
+PASS WHO/UNODC treatment source
+PASS HRI source
+PASS No public member registration route
+PASS No history timeline route in release
+PASS Static export enabled
+PASS GitHub Pages workflow
+PASS Vercel config
+
+All 13 QA checks passed.

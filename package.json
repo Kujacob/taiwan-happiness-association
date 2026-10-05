@@ -1,0 +1,18 @@
+{
+  "name": "taiwan-happiness-association-website",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "qa": "node scripts/qa.mjs",
+    "release-check": "npm run qa && npm run build"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "engines": {"node": ">=20.9.0"}
+}
