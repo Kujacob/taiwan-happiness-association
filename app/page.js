@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SiteShell from '../components/SiteShell';
 import {organization} from '../data/content';
-export const metadata={title:'首頁'};
+export const metadata={title:'首頁',description:'社團法人台灣雀樂協會官方網站：健康促進、成癮健康教育、復元支持與減害。',alternates:{canonical:'/',languages:{'zh-Hant':'/','en':'/en'}}};
 export default function Home(){return <SiteShell><>
 <section className="hero hero-premium"><div className="container hero-grid"><div className="hero-copy"><div className="eyebrow">Health · Recovery · Harm Reduction</div><h1>讓健康資訊更可信，<br/>讓支持更靠近人。</h1><p className="lead">{organization.nameZh}以健康促進為核心，推動成癮照護、復元支持與減害教育。我們相信，每個人都有權利在尊嚴、理解與實證支持中，走向更健康的生活。</p><div className="actions"><Link className="btn primary" href="/knowledge">了解成癮與健康</Link><Link className="btn secondary" href="/harm-reduction">認識減害</Link></div><div className="trust-row"><span>✓ 中英雙語</span><span>✓ 實證來源</span><span>✓ 不污名溝通</span></div></div><div className="hero-visual"><div className="hero-art-shell"><Image className="hero-art" src="/images/illustrations/hero-home.svg" width={1199} height={675} alt="台灣社區健康、復元與支持的原創插畫" priority/><div className="hero-message"><strong>每個人，都有權利過平凡而快樂的生活。</strong><span>雀樂協會的核心信念</span></div></div></div></div></section>
 <section className="quick-section"><div className="container"><div className="quick-grid"><Link href="/knowledge" className="quick-card"><span>01</span><strong>我想了解成癮與復元</strong><small>從健康觀點理解物質使用疾患、治療與復元。</small></Link><Link href="/harm-reduction" className="quick-card"><span>02</span><strong>我想了解減害</strong><small>以實證、尊嚴和降低傷害為核心的公共衛生方法。</small></Link><Link href="/programs" className="quick-card"><span>03</span><strong>我是家屬、教師或專業者</strong><small>查看雀樂的方案領域與可參考的專業資源。</small></Link></div></div></section>
