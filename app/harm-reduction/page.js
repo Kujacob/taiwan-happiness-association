@@ -1,5 +1,5 @@
 import SiteShell from '../../components/SiteShell';
-export const metadata={title:'減害 Harm Reduction'};
+export const metadata={title:'減害 Harm Reduction',description:'認識減害的公共衛生、實證、人權與尊嚴原則，以及雀樂協會支持減害、反對污名化的立場。',alternates:{canonical:'/harm-reduction',languages:{'zh-Hant':'/harm-reduction','en':'/en/harm-reduction'}}};
 const Ref=({href,children})=><a className="source-link" target="_blank" rel="noreferrer" href={href}>{children} ↗</a>;
 export default function Page(){return <SiteShell><section><div className="container article-layout"><aside className="article-nav"><strong>本頁內容</strong><a href="#definition">什麼是減害</a><a href="#principles">核心原則</a><a href="#services">國際實證措施</a><a href="#stigma">污名與可近性</a><a href="#taiwan">雀樂立場</a><a href="#sources">主要來源</a></aside><article className="prose"><div className="breadcrumb">首頁 / 減害</div><div className="article-intro"><div className="eyebrow">Harm Reduction</div><h1>減害：先降低可避免的傷害，讓健康支持更容易抵達。</h1><p className="lead">減害不是鼓勵藥物使用，也不是放棄治療；它是一套以公共衛生、實證、人權與尊嚴為基礎的方法。</p></div>
 <h2 id="definition">什麼是減害？</h2><p>Harm Reduction International 將減害描述為：降低與藥物使用、藥物政策及相關法律可能造成之健康、社會與法律負面影響的政策、方案與實務。它強調正向改變，以及不以評價、強迫、歧視或「必須先停止使用」作為取得支持的前提。</p><p>這與治療並不衝突。對一些人，停止使用是明確目標；對另一些人，第一步可能是避免過量、降低感染、改善睡眠、接受醫療、減少高風險情境或重新與支持系統連結。</p>
