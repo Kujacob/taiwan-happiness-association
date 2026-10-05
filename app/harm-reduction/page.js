@@ -11,22 +11,18 @@ export default function Page(){return <SiteShell><section><div className="contai
 <p><strong>雀樂協會全力支持台灣減害協會近期就減害爭議所提出的聲明，支持毒品減害的立場不變。</strong> 減害不是鼓勵使用毒品，而是在一個人尚未能、或尚未準備完全停止使用時，先降低感染、過量死亡及其他可預防的健康與社會風險，同時維持與醫療、心理、社福及支持系統的連結，讓後續治療與復元仍有機會發生。</p>
 <div className="notice"><strong>我們支持以下原則：</strong><ul><li>公共衛生政策可以被批評，但應以科學證據與專業對話為基礎。</li><li>減害政策可以被檢討，但不應以污名或標籤取代討論。</li><li>成癮可能具有慢性與復發特性，持續照護、追蹤與治療調整不可或缺。</li><li>復元有不同起點與路徑，不應只以單一標準判定成敗。</li><li>降低一次傷害、避免一次感染、預防一次死亡，或促成一次求助，都可能成為復元歷程的重要起點。</li></ul></div>
 <p>因此，雀樂協會將持續支持以實證、尊嚴、降低污名與增加求助可近性為核心的減害工作，並支持具有科學實證基礎的公共衛生措施。</p>
-<div style={{marginTop:'2rem',marginBottom:'2rem'}}>
-  <h3>台灣減害協會近期聲明</h3>
-  <p>以下嵌入台灣減害協會原始 Facebook 聲明。若 Facebook 因隱私設定、瀏覽器追蹤防護或登入狀態而無法顯示，可使用下方連結直接前往原文。</p>
-  <div style={{maxWidth:'560px',margin:'1rem auto'}}>
-    <iframe
-      title="台灣減害協會近期減害政策聲明"
-      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FharmreductionTaiwan%2Fposts%2Fpfbid05iKwnATj5p4tpvb2L8sUgFRGLXKHkPvvhmLsCghWg9RVaHfZc4nMM8DNVV4KAAffl&show_text=true&width=500"
-      width="500"
-      height="680"
-      style={{border:'none',overflow:'hidden',width:'100%',maxWidth:'500px',background:'white',borderRadius:'12px'}}
-      scrolling="no"
-      frameBorder="0"
-      allowFullScreen={true}
-      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-    />
+<div className="statement-preview">
+  <div className="statement-preview-head">
+    <div><div className="kicker">Taiwan Harm Reduction Association</div><h3>台灣減害協會近期聲明</h3></div>
+    <span className="statement-badge">原始來源：Facebook</span>
   </div>
-  <p style={{textAlign:'center'}}><Ref href="https://www.facebook.com/harmreductionTaiwan/posts/pfbid05iKwnATj5p4tpvb2L8sUgFRGLXKHkPvvhmLsCghWg9RVaHfZc4nMM8DNVV4KAAffl">前往台灣減害協會 Facebook 查看原始聲明</Ref></p>
+  <p>Facebook 的嵌入貼文在部分手機瀏覽器、App 內建瀏覽器或啟用追蹤防護時可能無法載入，因此本站改以穩定的「聲明摘要＋原文連結」呈現，避免訪客看到空白或錯誤畫面。</p>
+  <div className="statement-quote">
+    <strong>核心內容摘要</strong>
+    <p>減害政策可以被檢視與討論，但公共衛生對話應以科學證據與專業為基礎，而非以污名取代討論；對藥物使用者的健康支持，也不應與製造、運輸或販賣毒品等行為混為一談。</p>
+  </div>
+  <div className="actions">
+    <Ref href="https://www.facebook.com/harmreductionTaiwan/posts/pfbid05iKwnATj5p4tpvb2L8sUgFRGLXKHkPvvhmLsCghWg9RVaHfZc4nMM8DNVV4KAAffl">前往台灣減害協會 Facebook 查看原始聲明</Ref>
+  </div>
 </div>
 <h2 id="sources">主要參考來源</h2><ul className="references"><li><Ref href="https://hri.global/what-is-harm-reduction/">Harm Reduction International — What is Harm Reduction?</Ref></li><li><Ref href="https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/populations/people-who-inject-drugs">WHO — People who inject drugs: comprehensive package of services</Ref></li><li><Ref href="https://www.who.int/westernpacific/publications/i/item/9789240116214">WHO — Needle and syringe programmes for people who inject drugs: operational guide (2026)</Ref></li><li><Ref href="https://www.facebook.com/harmreductionTaiwan/posts/pfbid05iKwnATj5p4tpvb2L8sUgFRGLXKHkPvvhmLsCghWg9RVaHfZc4nMM8DNVV4KAAffl">台灣減害協會 — 近期減害政策聲明（Facebook）</Ref></li><li><Ref href="https://news.nextapple.com/life/20261005/84AC1161C90B9C27D638BC8BDAE81E31">相關報導 — 清潔針具、美沙冬引熱議：不該用污名取代專業討論</Ref></li></ul><div className="meta">最後更新：2026-10-05 · 雀樂協會支持以科學實證、尊嚴、降低污名與增加求助可近性為核心的減害政策。</div></article></div></section></SiteShell>}
