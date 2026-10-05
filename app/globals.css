@@ -327,3 +327,20 @@ main,section,article,aside,.container,.prose,.article-layout>*{min-width:0;}
  .statement-badge{margin-top:10px;}
  .statement-preview .source-link{width:100%;justify-content:center;text-align:center;}
 }
+
+
+/* 2024 Asia-Pacific Harm Reduction conference gallery */
+.conference-caption{max-width:900px;margin:0 0 26px;color:#465f59;}
+.conference-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+.conference-gallery figure{margin:0;background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:var(--shadow-1);}
+.conference-gallery img{width:100%;height:520px;object-fit:contain;background:#f3f6f5;}
+.conference-gallery figcaption{padding:14px 16px 17px;color:#536a64;font-weight:700;line-height:1.55;}
+@media (max-width:980px){
+ .conference-gallery img{height:430px;}
+}
+@media (max-width:640px){
+ .conference-gallery{grid-template-columns:1fr;gap:16px;}
+ .conference-gallery img{height:auto;max-height:520px;object-fit:contain;}
+ .conference-gallery figure{border-radius:20px;}
+ .conference-gallery figcaption{font-size:.94rem;}
+}
