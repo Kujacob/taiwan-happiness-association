@@ -1,5 +1,5 @@
 import SiteShell from '../../components/SiteShell';
-export const metadata={title:'成癮與健康知識'};
+export const metadata={title:'成癮與健康知識',description:'以健康、實證與不污名的方式理解物質使用、物質使用疾患、治療、復元與家庭支持。',alternates:{canonical:'/knowledge',languages:{'zh-Hant':'/knowledge','en':'/en/knowledge'}}};
 const Ref=({href,children})=><a className="source-link" target="_blank" rel="noreferrer" href={href}>{children} ↗</a>;
 export default function Page(){return <SiteShell><section><div className="container article-layout"><aside className="article-nav"><strong>本頁內容</strong><a href="#basics">理解物質使用</a><a href="#treatment">治療原則</a><a href="#recovery">復元</a><a href="#youth">青少年與家庭</a><a href="#help">何時尋求協助</a><a href="#sources">主要來源</a></aside><article className="prose"><div className="breadcrumb">首頁 / 成癮與健康知識</div><div className="article-intro"><div className="eyebrow">Knowledge</div><h1>成癮與健康知識</h1><p className="lead">以健康、實證與不污名的方式，理解物質使用、物質使用疾患、治療與復元。</p></div>
 <div className="key-points"><strong>先記住三件事</strong><ul><li>使用物質不等於一定有「成癮」；是否形成健康問題，需要看使用型態、失控程度、傷害與生活功能。</li><li>物質使用疾患是可以評估與治療的健康狀況，不是道德失敗。</li><li>越早得到合適、持續且個別化的支持，越有機會改善健康與生活功能。</li></ul></div>
