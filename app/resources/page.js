@@ -1,5 +1,5 @@
 import SiteShell from '../../components/SiteShell';
-export const metadata={title:'專業資源'};
+export const metadata={title:'專業資源',description:'雀樂協會整理之成癮治療、預防、減害與公共衛生專業資源。',alternates:{canonical:'/resources',languages:{'zh-Hant':'/resources','en':'/en/resources'}}};
 const refs=[
  ['WHO｜International Standards for the Treatment of Drug Use Disorders','https://www.who.int/publications/i/item/international-standards-for-the-treatment-of-drug-use-disorders'],
  ['WHO｜Improving prevention and treatment for drug use disorders','https://www.who.int/activities/improving-prevention-and-treatment-for-drug-use-disorders'],
