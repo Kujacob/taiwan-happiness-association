@@ -17,7 +17,7 @@ export default function Page(){return <SiteShell><section><div className="contai
   <div style={{maxWidth:'560px',margin:'1rem auto'}}>
     <iframe
       title="台灣減害協會近期減害政策聲明"
-      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1PU7vyqwnS%2F&show_text=true&width=500"
+      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FharmreductionTaiwan%2Fposts%2Fpfbid05iKwnATj5p4tpvb2L8sUgFRGLXKHkPvvhmLsCghWg9RVaHfZc4nMM8DNVV4KAAffl&show_text=true&width=500"
       width="500"
       height="680"
       style={{border:'none',overflow:'hidden',width:'100%',maxWidth:'500px',background:'white',borderRadius:'12px'}}
@@ -27,6 +27,6 @@ export default function Page(){return <SiteShell><section><div className="contai
       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
     />
   </div>
-  <p style={{textAlign:'center'}}><Ref href="https://www.facebook.com/share/p/1PU7vyqwnS/">前往台灣減害協會 Facebook 查看原始聲明</Ref></p>
+  <p style={{textAlign:'center'}}><Ref href="https://www.facebook.com/harmreductionTaiwan/posts/pfbid05iKwnATj5p4tpvb2L8sUgFRGLXKHkPvvhmLsCghWg9RVaHfZc4nMM8DNVV4KAAffl">前往台灣減害協會 Facebook 查看原始聲明</Ref></p>
 </div>
-<h2 id="sources">主要參考來源</h2><ul className="references"><li><Ref href="https://hri.global/what-is-harm-reduction/">Harm Reduction International — What is Harm Reduction?</Ref></li><li><Ref href="https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/populations/people-who-inject-drugs">WHO — People who inject drugs: comprehensive package of services</Ref></li><li><Ref href="https://www.who.int/westernpacific/publications/i/item/9789240116214">WHO — Needle and syringe programmes for people who inject drugs: operational guide (2026)</Ref></li><li><Ref href="https://www.facebook.com/share/p/1PU7vyqwnS/">台灣減害協會 — 近期減害政策聲明（Facebook）</Ref></li><li><Ref href="https://news.nextapple.com/life/20261005/84AC1161C90B9C27D638BC8BDAE81E31">相關報導 — 清潔針具、美沙冬引熱議：不該用污名取代專業討論</Ref></li></ul><div className="meta">最後更新：2026-10-05 · 雀樂協會支持以科學實證、尊嚴、降低污名與增加求助可近性為核心的減害政策。</div></article></div></section></SiteShell>}
+<h2 id="sources">主要參考來源</h2><ul className="references"><li><Ref href="https://hri.global/what-is-harm-reduction/">Harm Reduction International — What is Harm Reduction?</Ref></li><li><Ref href="https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/populations/people-who-inject-drugs">WHO — People who inject drugs: comprehensive package of services</Ref></li><li><Ref href="https://www.who.int/westernpacific/publications/i/item/9789240116214">WHO — Needle and syringe programmes for people who inject drugs: operational guide (2026)</Ref></li><li><Ref href="https://www.facebook.com/harmreductionTaiwan/posts/pfbid05iKwnATj5p4tpvb2L8sUgFRGLXKHkPvvhmLsCghWg9RVaHfZc4nMM8DNVV4KAAffl">台灣減害協會 — 近期減害政策聲明（Facebook）</Ref></li><li><Ref href="https://news.nextapple.com/life/20261005/84AC1161C90B9C27D638BC8BDAE81E31">相關報導 — 清潔針具、美沙冬引熱議：不該用污名取代專業討論</Ref></li></ul><div className="meta">最後更新：2026-10-05 · 雀樂協會支持以科學實證、尊嚴、降低污名與增加求助可近性為核心的減害政策。</div></article></div></section></SiteShell>}
