@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import SiteShell from '../../components/SiteShell';
 import {programAreas} from '../../data/content';
-export const metadata={title:'方案與服務'};
+export const metadata={title:'方案與服務',description:'雀樂協會在成癮健康、青少年、家庭、新住民、減害與專業交流等領域的方案與服務。',alternates:{canonical:'/programs',languages:{'zh-Hant':'/programs','en':'/en/programs'}}};
 const immigrantGallery=[
  ['/images/programs/new-immigrant-parent.webp','新住民家長親職教育課程'],
  ['/images/programs/new-immigrant-training.webp','2024 年新住民服務活動人員訓練'],
