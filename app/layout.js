@@ -1,6 +1,6 @@
 import './globals.css';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://taiwan-happiness-association-neon.vercel.app';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://taiwan-happiness-association.org';
 
 export const viewport = {
   width: 'device-width',
